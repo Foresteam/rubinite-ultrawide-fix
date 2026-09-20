@@ -12,6 +12,7 @@ public class Plugin : BaseUnityPlugin
     internal static new ManualLogSource Logger;
     static readonly Resolution[] UltraWideResolutions = [
         new (2560, 1080),
+        new (2560, 1600),
         new (3840, 1080),
         new (3440, 1440),
         new (3840, 1600),
